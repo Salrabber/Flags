@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag{
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.ukr__item{
+    height: 75px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.jap__content{
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.jap__item{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.icel__content{
+    background-color: blue;
+}
+
+.icel__item1{
+    background-color: red;
+    height: 150px;
+    width: 20px;
+    position: relative;
+    left: 90px;
+    z-index: 5;
+}
+
+.icel__item2{
+    background-color: red;
+    height: 20px;
+    width: 300px;
+    position: relative;
+    bottom: 85px;
+    z-index: 5;
+}
+
+.icel__item3{
+    background-color: white;
+    height: 150px;
+    width: 30px;
+    position: relative;
+    left: 85px;
+}
+
+.icel__item4{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    bottom: 90px;
+}
+
+.flag__wrap{
+    position: relative;
+    bottom: 170px;
+}
+
+.czech__content{
+    border: 1px solid black ;
+}
+
+.flag__item{
+    position: relative;
+}
+
+.triangle{
+    /* background-color: blue; */
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 130px solid blue;
+    z-index: 5;
+}
+
+.red{
+    height: 75px;
+    width: 300px;
+    background-color: red;
+    bottom: 75px;
+}
